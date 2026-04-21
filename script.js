@@ -12,3 +12,15 @@ function toggleMode() {
     img.setAttribute("src", "./assets/link-foto.png");
   }
 }
+
+  //pegar a teg imagem
+  const img = document.querySelector("#profile img");
+  //se tiver light mode, adicione a imagem light
+  if (html.classList.contains("light")) {
+    img.setAttribute("src", "./assets/foto.png");
+  } else {
+    // se tiver sem light mode, adicione a imagem normal
+    img.setAttribute("src", "./assets/link-foto.png");
+  }
+}
+>>>>>>> 5e0d6d5d8cb3315ab83f0b67d00b09ddb61dadad
